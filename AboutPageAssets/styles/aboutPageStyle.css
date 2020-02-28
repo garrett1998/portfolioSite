@@ -63,13 +63,15 @@ header .profileHeader p {
 }
 header .socialNetworkNavBar {
 	text-align: center;
+	text-indent: 110px;
 	display: block;
-	margin-top: 60px;
+	margin-top: 40px;
 	clear: both;
 }
 header .socialNetworkNavBar .socialNetworkNav {
 	border-radius: 50%;
 	cursor: pointer;
+	margin-right: 10%
 }
 header .socialNetworkNavBar .socialNetworkNav img:hover {
 	opacity: 0.5;
@@ -128,7 +130,7 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	display: block;
 }
 .mainContent .externalResourcesNav .externalResources {
-	background-color: rgba(208,207,207,1.00);
+	background-color: rgba(6,71,129,1.00);
 	display: inline-block;
 	text-align: center;
 	margin-top: 0px;
