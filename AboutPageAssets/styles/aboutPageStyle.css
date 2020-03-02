@@ -75,12 +75,12 @@ header .profileHeader p {
 }
 header .socialNetworkNavBar {
 	text-align: center;
-	text-indent: 100px;
+	text-indent: 0px;
 	display: block;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	clear: both;
-	word-spacing: 40px;
+	word-spacing: 50px;
 }
 header .socialNetworkNavBar .socialNetworkNav {
 	border-radius: 50%;
