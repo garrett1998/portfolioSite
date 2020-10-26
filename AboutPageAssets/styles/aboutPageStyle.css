@@ -16,7 +16,7 @@ body {
 .whiteBKG{
 	background: rgba(255,255,255,0.75);
 	padding: 15px;
-	word-wrap: normal;
+	word-wrap: break-word;
 	border-radius: 5px;
 }
 /* Header */
@@ -26,7 +26,8 @@ header {
 }
 header .profileLogo .logoPlaceholder {
 	background-color: rgba(255,255,255,0.00);
-	width: 187px;
+	width: 240px;
+	margin-left: auto;
 	text-align: center;
 }
 header .logoPlaceholder span {
@@ -50,11 +51,12 @@ header .profilePhoto {
 header .profileHeader h1 {
 	font-family: 'Montserrat', sans-serif;
 	color: rgba(0,0,0,1.00);
-	font-size: 30px;
+	font-size: 48px;
 	font-weight: 700;
 	line-height: 24px;
 }
 header .profileHeader h3 {
+	font: italic;
 	font-family: sans-serif;
 	color: rgba(0,0,0,1.00);
 	font-size: 16px;
@@ -103,16 +105,19 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 	text-transform: uppercase;
 }
 .section1 .sectionTitleRule, .section2 .sectionTitleRule {
+	font-family: 'Montserrat', sans-serif;
 	margin: 0 3% 0 0;
 	float: left;
 	clear: both;
 }
 .section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
+	font-family: 'Montserrat', sans-serif;
 	background-color: rgba(208,207,207,1.00);
 	height: 1px;
 	padding: 0px;
 }
 .mainContent .section1 .section1Content {
+	font-family: 'Montserrat', sans-serif;
 	font-family: ProximaNova;
 	font-size: 14px;
 	font-weight: 100;
@@ -237,6 +242,11 @@ header .socialNetworkNavBar .socialNetworkNav {
 }
 .section1 .sectionTitleRule, .section2 .sectionTitleRule {
 	width: 100%;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(6,71,129,1.00);
+	font-weight: 700;
 }
 .section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
 	display: none;
@@ -290,6 +300,7 @@ header .profilePhoto {
 }
 header .profileHeader {
 	text-align: left;
+	text-align: left;
 	margin-top: 7%;
 }
 header .socialNetworkNavBar .socialNetworkNav {
@@ -303,7 +314,12 @@ header .socialNetworkNavBar .socialNetworkNav {
 	text-align: center;
 }
 .section1 .sectionTitleRule, .section2 .sectionTitleRule {
-	width: 100%;
+	width: 20%;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(6,71,129,1.00);
+	font-weight: 700;
 }
 .section1 .sectionTitleRule2, .section2 .sectionTitleRule2 {
 	display: none;
@@ -377,7 +393,7 @@ header .socialNetworkNavBar .socialNetworkNav {
 }
 /* Main content sections */
 .section1 .sectionTitleRule, .section2 .sectionTitleRule {
-	width: 22.5%;
+	width: 25%;
 }
 .mainContent .section1 .section1Content {
 	display: block;
@@ -419,3 +435,78 @@ footer .footerNote {
 }
 }
 
+.kontact {
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(0,0,0,1.00);
+	font-weight: 100;
+}
+.sectionHeading {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 1200;
+	width: 280px;
+	color: rgba(6,71,129,1.00);
+}
+.sectionHeadingTwo{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 1200;
+	width: 280px;
+	color: #064781;
+	
+}
+.whiteTable {
+	
+	
+	text-align: left;
+	width: 960px;
+	height: 260px;
+	background: rgba(255,255,255,0.75);
+	
+	word-wrap: break-word;
+	border-radius: 5px;
+	font-family: sans-serif;
+	color: rgba(0,0,0,1.00);
+	font-size: 14px;
+	font-weight: 400;
+	
+}
+.kontact-info {
+	display: inline-block;
+	text-align: left;
+	margin-left: 30px;
+	width: 250px;
+
+}
+
+.bTitle1 {
+	text-align: left;
+	padding-left: 30px;
+	width: 200px;
+	height: 50px;
+	display: inline-block;
+}
+
+.bTitle2{
+	text-align: left;
+	padding-left: 280px;
+	width: 200px;
+	height: 50px;
+	display: inline-block;
+	
+}
+
+.bubbleTitles{
+	font-family: sans-serif;
+	font-weight: 1200;
+	width: 280px;
+	color: rgba(6,71,129,1.00);
+}
+.quotes {
+	text-align: center;
+	padding-left: 120px;
+	font-size: 36px;
+	width: 400px;
+	height: 150px;
+	display: inline-block;
+}
